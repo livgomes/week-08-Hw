@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+body {
+font-family: 'Lora', serif;
+font-family: 'merriweather', serif;
+background-color:#12f388;
+font-size: 18px;
+text-align:center;
+text-align:justify;
+text-indent: 25px;
+word-spacing:normal;
+line-height: 1.3em;
+}
+/* select all h1 elements */
+h1{
+  /* Draw an blue border 2px thick around the element.*/
+  border-style: dotted;
+  border-color: blue;
+  /* set a background color*/
+  color:rbg(0,0,0);
+  font-family: 'merriweather', cursive, serif;
+  font-size: 45px;
+  text-align: center;
+}
+h2{
+  color:rbg(0,0,0);
+  front-family: 'lora', cursive, serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.color-text {
+  /* Draw a blue border 4px thick. */
+  border-style: solid;
+  border-width: 4px;
+  border-color: blue;
+  /* color the background green */
+  background: green;
+  color: rbg(49, 186, 172);
+}
+
+.hover-element {
+  font-size: 1.5em;
+background-color:green;
+letter-spacing:  px;
+padding: 1em;
+text-align: center;
+}
+
+.hover-element:hover {
+  /* Draw a yellow border around hover element*/
+  font-size: 4em;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  text-align:center;
+  padding: 0em;
+  height: 70%;
+}
+.image {
+  /*center image*/
+  text-align: center;
+}
+/* select the first letter.*/
+.text-block::first-letter {
+  font-size:3em;
+  font-weight: 700;
+  color: black;
+  /*padding: 0.1em;*/
+}
